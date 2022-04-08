@@ -1,0 +1,21 @@
+todos:
+  data:
+    initialize: true
+  
+site:
+  author: SpringRunner
+  description: What're your plans today?
+
+server:
+  port: 8085
+  servlet:
+    encoding:
+      mapping:
+        ko: euc-kr
+  
+logging:
+  level:
+    org.springframework.web: trace
+    org.springframework.beans: debug
+    todoapp: debug
+    
